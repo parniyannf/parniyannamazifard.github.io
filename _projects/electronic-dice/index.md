@@ -14,4 +14,28 @@ main-image: /assets/projects/electronic-dice/main.jpg
 ## Overview
 Hands-on PCB assembly project involving soldering and testing of a touch-activated electronic dice with LED display.
 
-## Key
+## Assembly Process
+### Component Installation
+- Soldered 30+ components including:
+  - Surface-mount (SMD) components
+  - Through-hole components
+- Interpreted schematic diagrams
+- Verified all connections for accuracy
+
+### Testing & Debugging
+- Used multimeter to verify connections
+- Tested LED sequencing logic
+- Debugged circuit functionality
+- Improved circuit reliability through systematic testing
+
+## Skills Developed
+- Precision soldering techniques
+- PCB assembly best practices
+- Schematic interpretation
+- Circuit testing and debugging
+- Multimeter usage
+
+## Results
+Successfully assembled a fully functional electronic dice with reliable touch activation and proper LED sequencing.
+
+**Timeline:** October 2024 - November 2024
