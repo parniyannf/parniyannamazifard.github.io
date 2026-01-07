@@ -1,20 +1,22 @@
 ---
-layout: post
+layout: default
 title: Touch-Activated Electronic Dice
-description: PCB assembly project featuring LED sequencing logic and touch activation
-skills: 
+tags:
   - Soldering
   - PCB Assembly
   - Circuit Testing
   - Debugging
   - Schematic Reading
-main-image: /assets/projects/electronic-dice/main.jpg
+description: Soldered and assembled 30+ surface-mount and through-hole components on a PCB. Tested and debugged LED sequencing logic using a multimeter, improving circuit functionality and reliability.
 ---
+
+# Touch-Activated Electronic Dice
 
 ## Overview
 Hands-on PCB assembly project involving soldering and testing of a touch-activated electronic dice with LED display.
 
 ## Assembly Process
+
 ### Component Installation
 - Soldered 30+ components including:
   - Surface-mount (SMD) components
@@ -34,6 +36,12 @@ Hands-on PCB assembly project involving soldering and testing of a touch-activat
 - Schematic interpretation
 - Circuit testing and debugging
 - Multimeter usage
+
+## Technical Details
+- Touch sensor for activation
+- 555 timer IC for random number generation
+- LED array in dice pattern (7 LEDs)
+- Compact PCB design
 
 ## Results
 Successfully assembled a fully functional electronic dice with reliable touch activation and proper LED sequencing.
