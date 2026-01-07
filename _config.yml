@@ -1,0 +1,80 @@
+# Site Settings
+title: Parniyan Namazi Fard - Portfolio
+name: Parniyan Namazi Fard
+description: Electronics Engineering Student at Simon Fraser University
+url: "https://parniyannf.github.io"
+baseurl: ""
+
+# Profile
+profile_image: /assets/profile/profile.jpg
+
+# Resume
+resume-url: /assets/pdf/Resume-ParniyanNamaziFard.pdf
+
+# External Links
+external-links:
+  linkedin: parniyan-namazi-fard    # Your LinkedIn username from URL
+  github: parniyannf                # Your GitHub username
+  email: pna38@sfu.ca              # Your email
+
+# Skills
+skills:
+  - category: Programming Languages
+    tools:
+      - C
+      - C++
+      - Python
+      - MATLAB
+      - VHDL
+  
+  - category: Software & Frameworks
+    tools:
+      - ModelSim
+      - Intel Quartus Prime
+      - Visual Studio
+      - Eclipse
+      - Git
+  
+  - category: Design Tools
+    tools:
+      - Altium Designer
+      - SolidWorks
+      - AutoCAD
+      - LTspice
+  
+  - category: Lab Equipment
+    tools:
+      - Oscilloscopes
+      - Multimeters
+      - Function Generators
+      - Power Supplies
+      - Soldering Tools
+
+# Contact Form (sign up at formspree.io)
+formspree-key: "your_formspree_key_here"
+
+# Color Theme
+colors:
+  text: "#1a1c20"
+  border: "#ddd"
+  link: "#4a76ee"
+  highlight: "#0c0cf2"
+  background: "#ffffff"
+  light_background: "#f3f5fb"
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name
+
+# Exclude files
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
