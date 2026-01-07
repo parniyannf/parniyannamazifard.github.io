@@ -1,15 +1,16 @@
 ---
-layout: post
+layout: default
 title: Custom ESP32 PCB Design
-description: 4-layer ESP32 development board with USB-C power, voltage regulation, and peripheral expansion headers
-skills: 
+tags:
   - Altium Designer
   - PCB Design
   - Circuit Schematic
   - DRC Analysis
   - 3D Modeling
-main-image: /assets/projects/esp32-pcb/main.jpg
+description: Designed a 4-layer ESP32 development board with USB-C power input, onboard voltage regulation, and peripheral expansion headers. Created IPC-compliant footprints and 3D models.
 ---
+
+# Custom ESP32 PCB Design
 
 ## Overview
 Designed a professional 4-layer ESP32 development board with modern features including USB-C power input, onboard voltage regulation, and peripheral expansion headers.
@@ -22,6 +23,7 @@ Designed a professional 4-layer ESP32 development board with modern features inc
 - ESD protection on all I/O lines
 
 ## Design Process
+
 ### Schematic Capture
 - Created complete schematic in Altium Designer
 - Integrated ESP32-WROOM-32 module
