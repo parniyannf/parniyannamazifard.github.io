@@ -1,15 +1,16 @@
 ---
-layout: post
+layout: default
 title: Automatic Plant Watering System
-description: IoT-based automated irrigation system with soil moisture monitoring and adaptive watering control
-skills: 
+tags:
   - Embedded Systems
   - Sensor Integration
   - Arduino/ESP32
   - Circuit Design
   - System Automation
-main-image: /assets/projects/plant-watering/main.jpg
+description: Developed an automated plant irrigation system that monitored soil and climate conditions. Reduced manual effort by 40% and water use by 15% through sensor feedback and adaptive watering control.
 ---
+
+# Automatic Plant Watering System
 
 ## Overview
 Developed an automated plant irrigation system that monitors soil and climate conditions, displays live status updates, and adjusts watering cycles to make plant care easier and more efficient.
@@ -29,6 +30,7 @@ Developed an automated plant irrigation system that monitors soil and climate co
 - Implemented adaptive watering control algorithm
 
 ## Technical Implementation
+
 ### Hardware
 - Soil moisture sensors
 - DHT22 temperature/humidity sensor
