@@ -1,16 +1,17 @@
 ---
-layout: post
+layout: default
 title: Automatic Door with Facial Recognition
-description: Raspberry Pi-based keyless door system using OpenCV for secure access control
-skills: 
+tags:
   - Python
   - OpenCV
   - Raspberry Pi
   - Computer Vision
   - Hardware Integration
   - Team Collaboration
-main-image: /assets/projects/facial-recognition/main.jpg
+description: Collaborated in a team of 7 to design and build a Raspberry Pi-based keyless door system using OpenCV for facial recognition access control with motion-activated lighting and manual override.
 ---
+
+# Automatic Door with Facial Recognition
 
 ## Overview
 Collaborated in a team of 7 to design and build a Raspberry Pi-based keyless door system using OpenCV for facial recognition access control.
@@ -23,6 +24,7 @@ Collaborated in a team of 7 to design and build a Raspberry Pi-based keyless doo
 - Servo-controlled door locking mechanism
 
 ## My Contributions
+
 ### Software Development
 - Programmed control logic in Python
 - Implemented real-time access control
@@ -44,11 +46,12 @@ Collaborated in a team of 7 to design and build a Raspberry Pi-based keyless doo
 - **Team Size:** 7 members
 
 ## Challenges & Solutions
-- **Challenge:** Optimizing recognition speed vs accuracy
-- **Solution:** Tested multiple models and selected optimal parameters
 
-- **Challenge:** Servo calibration for reliable door operation
-- **Solution:** Iterative testing and fine-tuning
+**Challenge:** Optimizing recognition speed vs accuracy  
+**Solution:** Tested multiple models and selected optimal parameters
+
+**Challenge:** Servo calibration for reliable door operation  
+**Solution:** Iterative testing and fine-tuning
 
 ## Results
 Successfully created a working prototype with reliable facial recognition and smooth door operation.
