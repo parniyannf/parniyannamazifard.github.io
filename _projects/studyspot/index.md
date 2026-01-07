@@ -1,15 +1,16 @@
 ---
-layout: post
+layout: default
 title: StudySpot - Campus Study Space Finder
-description: Real-time web app displaying live campus study space availability with color-coded occupancy indicators
-skills: 
+tags:
   - Web Development
   - JavaScript
   - Real-time Data
   - UI/UX Design
   - Team Collaboration
-main-image: /assets/projects/studyspot/main.jpg
+description: Developed a real-time web app displaying live campus study space availability with color-coded occupancy indicators. Built a working prototype within 12 hours at WiE x ESSS Hackathon.
 ---
+
+# StudySpot - Campus Study Space Finder
 
 ## Overview
 Developed a real-time web application that displays live campus study space availability using color-coded occupancy indicators and user-submitted updates. Built as part of the WiE x ESSS Hackathon.
@@ -25,6 +26,7 @@ Developed a real-time web application that displays live campus study space avai
 - **Campus map integration** - Visual location of study spaces
 
 ## Development Process
+
 ### Hackathon Challenge
 - **Time constraint:** 12 hours
 - **Team size:** 4 members
