@@ -1,14 +1,15 @@
 ---
-layout: post
+layout: default
 title: AM Radio Receiver Design
-description: Built and tested a functional AM radio receiver with LC tuner, envelope detector, and op-amp audio amplifier
-skills: 
+tags:
   - Circuit Design
   - LTspice Simulation
   - Oscilloscope Testing
   - Analog Electronics
-main-image: /assets/projects/am-radio/main.jpg
+description: Built and tested a functional AM radio receiver with LC tuner, envelope detector, and op-amp audio amplifier to successfully tune and demodulate broadcast signals in the 550–1600 kHz band.
 ---
+
+# AM Radio Receiver Design
 
 ## Overview
 Built and tested a functional AM radio receiver on a breadboard, implementing an LC tuner, diode-based envelope detector, and op-amp audio amplifier to successfully tune and demodulate broadcast signals in the 550–1600 kHz band.
