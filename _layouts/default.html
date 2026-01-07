@@ -3,15 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }} | {{ site.title }}</title>
-    <link rel="stylesheet" href="{{ '/css/main.css' | relative_url }}">
+    <title>{{ page.title }} - Parniyan Namazi Fard</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ '/css/main.css' | relative_url }}">
 </head>
 <body>
-    {% include header.html %}
-    
+    <header class="site-header">
+        <nav class="navbar">
+            <div class="nav-brand">
+                <a href="{{ '/' | relative_url }}">Parniyan Namazi Fard</a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="{{ '/' | relative_url }}">Home</a></li>
+                <li><a href="{{ '/#projects' | relative_url }}">Projects</a></li>
+                <li><a href="https://drive.google.com/file/d/1v2xGMpeMiYt9_JiS3UGRaXunKIwRDwQo/view?usp=drive_link" target="_blank" class="resume-btn">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
     <main>
         {{ content }}
     </main>
