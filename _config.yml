@@ -1,3 +1,19 @@
 title: Parniyan Namazi Fard - Portfolio
 name: Parniyan Namazi Fard
 description: Electronics Engineering Student at Simon Fraser University
+url: "https://parniyannf.github.io"
+baseurl: ""
+
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
